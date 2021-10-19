@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;text-align: center;
+    font-family: 'Noto Sans Mono', monospace;
+}
+/* Header */
+.navbar{
+    padding: 15px;
+    font-size: 20px;
+}
+.navbar-brand {
+    font-size: 70px !important;
+    color: #ff4c68 !important;
+    font-weight: bold;
+    font-family: 'Festive', cursive;
+}
+.spikes , #press {
+    position: relative;
+    background-image:url(./jametlene-reskp-fliwkBbS7oM-unsplash.jpg);
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+  }
+  .spikes::after , #press::after{
+      content: "";
+      position: absolute;
+      background-color: rgba(0, 0, 0, .6);
+      top: 0;
+      left: 0;
+      z-index: -2;
+      width: 100%;height: 100%;
+  }
+  .hvr-underline-from-center::before{background: #fff;}
+  
+
+.nav-item .nav-link{
+    color: #ff4c68;
+    font-size: 35px;
+    margin-left: 15px;
+ 
+}
+.fa-bars{
+    color: #ff4c68;
+}
+.container-fluid{
+    padding: 3% 14%;
+}
+.head-one{
+    margin-top: 150px;
+    color: #fff;
+}
+.head-one .btn , #Explore .btn{
+    padding: 20px 40px;
+    font-size: 25px;
+    margin-right: 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    margin-bottom: 50px;
+}
+.b , #Explore .btn:last-child{
+   background-color: transparent;
+   border: 3px #fff solid;
+   color: #fff;
+}
+.b:hover , #Explore .btn:last-child:hover{
+    background-color: ghostwhite;
+    color: #000;
+    border: #000 2px solid;
+}
+.head-one h1 , #Explore .h1{
+    line-height: 1.5;
+    font-size: 3.7rem;font-weight: 400;
+    margin-bottom: 55px;letter-spacing: 1px;
+}
+.head-one h1 span{
+    color:#ff4c68;
+}
+.head-two{
+    margin-top: 50px;
+}
+.head-two img{
+    width: 350px;
+    height: 600px;
+}
+/* Advanteges */
+#advanteges{
+    padding: 5% 15%;
+}
+.adv-part{
+    padding: 4.5%;
+}
+.adv-part i{
+    color: #ef8172;
+    margin-bottom: 20px;
+}
+.adv-part i:hover{
+    color:#ff4c68;
+}
+.adv-part h3{
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.adv-part p{
+    font-size: 28px;
+    color: #8f8f88;
+} 
+/* Testimonial */
+#testimonial{
+    background-color: #ef8172;
+    color: #fff;
+}
+#testimonial h2{
+    font-size: 3.3rem;
+    line-height: 1.6;
+    font-style: italic;
+    font-weight: bold;
+   margin-bottom: 40px;
+}
+em{
+    font-size: 2rem;
+}
+#testimonial img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5%  15%;
+}
+/* Press */
+#press {
+    background-image:url(https://images.unsplash.com/photo-1519150268069-c094cfc0b3c8?ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cHVwcGllc3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    padding: 2% 0;
+}
+#press img{
+    margin: 10px 20px 50px;
+}
+/* Pricing */
+#pricing{
+    padding: 7% 15%;
+}
+#pricing h2:first-child{
+    color: #ff4c68 !important;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-weight: bold;
+}
+#pricing span{
+   font-size:30px;
+   display: block;
+   padding-bottom: 70px;
+   margin-top:10px;
+   color: #8f8f88;
+}
+.card-header{
+    padding: 20px 0;
+}
+.card-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.card-body p{
+    padding-bottom: 10px;
+    margin-top:20px;
+    font-size:25px; 
+    color: #8f8f88;  
+}
+#pricing h3 , h2{
+    font-weight: bold;
+    font-size: 3rem;
+    color: #fff !important;
+}
+.card{
+    padding: 0;
+    padding-bottom: 10px; 
+    margin-bottom: 20px;
+}
+.card .btn{
+    padding: 20px;
+}
+#pricing h2 {
+color: #ff4c68;
+}
+.list-group-item{
+    padding: 30px;
+    font-size: 25px;
+    color: #8f8f8f;
+}
+.card-header{
+    background-color: #ef8172;
+}
+/* Explore */
+#Explore{
+    background-color: #ef8172;
+    padding: 7% 15%;
+}
+#Explore .h1{
+font-weight: bold;
+font-style: italic;
+}
+/* Footer */
+#footer{
+    background-color: #000;
+    color: #fff;
+    padding: 2% 15%;
+}
+#footer i{
+    margin-right: 10px;
+}
+#footer p{
+    font-size: 20px;
+    margin-top: 20px;
+}
+/* Animation */
